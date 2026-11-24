@@ -1,0 +1,13 @@
+@media (max-width: 680px) {
+  .side-links {
+    grid-auto-flow: column;
+    grid-auto-columns: 46px;
+    grid-template-columns: none;
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+  .side-links a,
+  .side-links .mobile-logout {
+    min-width: 44px;
+  }
+}
